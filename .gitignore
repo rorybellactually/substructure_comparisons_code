@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+comparison_resultsLimbusvsManual/*
+comparison_resultsLimbusvsPlatiPy/*
+out_figs/*
+
+
+
 # Distribution / packaging
 .Python
 build/
