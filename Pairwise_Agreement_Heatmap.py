@@ -9,9 +9,8 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # Section: Inputs
-# Change these paths to match your environment if needed.
-csv_path = Path("/Users/shenminghao/Desktop/Master Project/result/comparison_results_Lymphoma_PlatiPy_Limbus/combined_detailed_metrics_Lymphoma_PlatiPy_Limbus.csv")
-out_png = Path("/Users/shenminghao/Desktop/Master Project/result/Lymphoma_pairwise_agreement_heatmap_rvol_dsc.png")
+csv_path = Path("/Users/user/Documents/PhD/A.Work/CohortStudy/data/collated_spreadsheets_PlatiPyvsLimbus.csv")
+out_png = Path('/Users/user/Documents/PhD/A.Work/CohortStudy/Minghao/CCLG Abstract/inter-model-agreement-limbus-platipy-paediatrics.png')
 
 # Optional: desired display order (missing items will be ignored).
 desired_order = [
@@ -20,11 +19,11 @@ desired_order = [
     "Left Atrium",
     "Right Atrium",
     "Right Ventricle",
-    "Atrioventricular Node",
-    "Pulmonary Artery",
-    "Left Anterior Descending",
-    "Superior Vena Cava",
-    "Aorta",
+    # "Atrioventricular Node",
+    # "Pulmonary Artery",
+    # "Left Anterior Descending",
+    # "Superior Vena Cava",
+    # "Aorta",
 ]
 
 # Section: Load data
